@@ -1,0 +1,246 @@
+/*Palet Color : http://www.colourlovers.com/palette/3549224/lovin_cakes
+				http://www.colourlovers.com/palette/1406072/Sand_Dunes
+*/
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+/*GENERIC*/
+
+.m-font {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 17px;
+}
+
+.f-right {
+	float: right;
+ }
+
+.transition {
+	transition:0.3s;
+	-webkit-transition:0.3s;
+	-o-transition:0.3s;
+	-moz-transition:0.3s;
+}
+
+.sub-tit {
+	font-family: 'Abel', sans-serif;
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+.titulo{
+	font-family: 'Abel', sans-serif;
+	font-size: 34px;
+	margin-bottom: 25px;
+}
+
+.f-text {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	max-width: 260px;
+	line-height: 25px;
+}
+
+.sub-text {
+	font-family: 'Abel', sans-serif;
+	color: #7BCDAC;
+	font-size: 25px;
+	
+}
+
+.b-more a{
+	font-family: 'Shadows Into Light', cursive;
+	text-decoration: none;
+	background: #7BCDAC;
+	color:white;
+	padding: 8px 15px;
+	border-radius: 6px;
+}
+.b-more a:hover {
+	text-decoration: none;
+	background: #FC9D9A;
+	color:white;
+}
+
+
+/*HEADER*/
+.h-top{
+	background: #7BCDAC;
+	max-height: 100px;
+}
+
+.h-top img {
+	width: 100%;
+}
+
+.logo-size {
+		height: 220px;
+		width: 60px;
+	}
+
+/*--menu--*/
+
+#menu-init ul {
+	height: 96px;
+	background:#7BCDAC; 
+	width: 100%;
+}
+
+
+#menu-init li {
+	text-align: center;
+	float: right;
+	top:35px;
+	position: relative;
+}
+
+#menu-init li a{
+	text-decoration: none;
+	color:white;
+	padding: 35px;
+	border-radius: 10px;
+}
+
+#menu-init a:hover {
+	background: #FC9D9A;
+	color:white;
+}
+
+
+/*BODY*/
+#slide-config {
+	max-width: 940px;
+	padding: 44px 20px 20px 0px;
+	margin-bottom: 0px;
+}
+
+#slide-config img{
+	width: 100%;
+}
+
+#slides {
+      display:none;
+}
+
+.container-slide {
+  margin: 0 auto
+}
+
+.slidesjs-pagination .active {
+  color:red;
+}
+
+#sec-geral {
+	background: rgba(249,205,173,0.5); 
+	border:solid 3px #F9CDAD;
+}
+
+.bg-sec{
+	padding: 25px 10px;
+}
+
+.p-sec{
+	margin-bottom: 27px;
+}
+
+#sec2-geral {
+	margin: 50px 0;
+}
+
+#sec2-geral h2 {
+	color: #7BCDAC;
+}
+
+
+#info-sec p{
+	padding-bottom: 20px;
+}
+
+
+#recipe li:last-child{
+	margin-bottom: 26px;
+}
+
+#recipe a{
+	text-decoration: none;
+	line-height: 30px;
+}
+
+.rcp-text {
+	color:#59545B;
+}
+
+.rcp-text:hover {
+	color:#FC9D9A;
+}
+
+/*FOOTER*/
+
+.h-bottom {
+	background: #7BCDAC;
+
+}
+
+#cont-1 li{
+	color:white;
+	float: left;
+	margin-left: 10px;
+	padding: 10px;
+}
+
+#cont-1 li:first-child {
+	margin: 0;
+}
+
+#cont-1 span{
+	margin-left: 8px;
+	color:white;
+}
+
+#social a{
+	font-size: 18px;
+	color: white;
+	margin: 15px 10px;
+}
+
+#social a:hover {
+	color: #FE4365;
+	text-decoration: none;
+}
+
+#cont-2 {
+	margin-bottom: 30px;
+}
+
+#cont-2 li {
+	float:left;
+	margin-right: 40px; 
+}
+
+#cont-2 li a {
+	color: #59545B;
+	text-decoration: none;
+}
+
+#cont-2 a:hover {
+	color:white;
+	text-decoration: none;
+
+}
+
+#cont-2 span {
+	float: right;
+	color:white;
+	margin-right: 165px;
+}
+
+
